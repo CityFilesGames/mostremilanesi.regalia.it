@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGALIA</title>
+<link rel="stylesheet" href="style.css">
+<script>
+function showSection(id){
+  document.querySelectorAll('.section').forEach(s=>s.style.display='none');
+  document.getElementById(id).style.display='block';
+}
+</script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="overlay">
+    <h1>REGALIA</h1>
+    <p class="subtitle">I segni della sovranità tra tardo antico e medioevo</p>
+    <p class="meta">Milano — Fabbrica del Vapore</p>
+  </div>
+</header>
+
+<nav>
+  <button onclick="showSection('home')">Mostra</button>
+  <button onclick="showSection('oggetti')">Oggetti</button>
+  <button onclick="showSection('percorso')">Percorso</button>
+</nav>
+
+<div class="layout">
+
+<main>
+
+<section id="home" class="section">
+  <h2>La mostra</h2>
+  <p>
+  REGALIA è un progetto espositivo dedicato alla rappresentazione del potere nella storia italiana.
+  Attraverso una selezione di oggetti provenienti da istituzioni lombarde, il percorso analizza
+  come il potere si renda visibile, riconoscibile e trasmissibile.
+  </p>
+  <p>
+  Il progetto si concentra in particolare sul momento di transizione tra autorità imperiale e potere
+  ecclesiastico, evidenziando il ruolo degli oggetti nel sancire tale passaggio.
+  </p>
+</section>
+
+<section id="oggetti" class="section" style="display:none">
+<h2>Oggetti esposti</h2>
+
+<div class="obj">
+<h3>Scettro longobardo</h3>
+<p>Elemento cerimoniale legato alla regalità, utilizzato nelle cerimonie ufficiali per rappresentare il potere diretto del sovrano.</p>
+<p class="src">Museo del Duomo, Milano</p>
+<img src="scettro_1.jpg"><img src="scettro_2.jpg">
+</div>
+
+<div class="obj">
+<h3>Sigilli medievali</h3>
+<p>Strumenti di autenticazione, fondamentali per conferire validità agli atti ufficiali e trasformare una decisione in autorità riconosciuta.</p>
+<p class="src">Archivio di Stato, Milano</p>
+<img src="sigilli_1.jpg"><img src="sigilli_2.jpg">
+</div>
+
+<div class="obj highlight">
+<h3>Corona Ferrea</h3>
+<p>
+Utilizzata nelle incoronazioni dei re d’Italia, la Corona Ferrea rappresenta uno dei principali strumenti
+di legittimazione del potere.
+</p>
+<p>
+Non rappresentava soltanto l’autorità, ma ne sanciva il riconoscimento formale.
+</p>
+<p>
+Secondo la tradizione, al suo interno è presente un anello metallico associato a uno dei chiodi della Croce.
+</p>
+<p class="src">Duomo di Monza</p>
+<img src="corona_1.jpg"><img src="corona_2.jpg">
+</div>
+
+</section>
+
+<section id="percorso" class="section" style="display:none">
+<h2>Percorso espositivo</h2>
+<p>
+Il percorso mette in relazione oggetti civili e religiosi per analizzare la trasformazione del potere nel tempo.
+</p>
+</section>
+
+</main>
+
+<aside class="sidebar">
+  <div class="box">
+    <h3>Info e contatti</h3>
+    <p><a href="contatti.html">Per info e contatti</a></p>
+  </div>
+</aside>
+
+</div>
+
+</body>
+</html>
