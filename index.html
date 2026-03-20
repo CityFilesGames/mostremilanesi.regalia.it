@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGALIA — Milano 2025</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function showSection(id){
+      document.querySelectorAll('.section-panel').forEach(el => el.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner wrap">
+      <div class="eyebrow">Mostra temporanea · Milano 2025</div>
+      <h1>REGALIA</h1>
+      <p class="hero-sub">I segni della sovranità tra tardo antico e medioevo</p>
+      <p class="hero-meta">Spazio Ventura · Milano · 18 settembre — 21 dicembre 2025</p>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="wrap nav-inner">
+      <button class="nav-btn" onclick="showSection('home')">La mostra</button>
+      <button class="nav-btn" onclick="showSection('objects')">Oggetti in mostra</button>
+      <button class="nav-btn" onclick="showSection('path')">Percorso espositivo</button>
+    </div>
+  </nav>
+
+  <div class="wrap page-grid">
+    <main class="content">
+      <section id="home" class="section-panel active">
+        <div class="section-head">
+          <span class="section-kicker">Mostra</span>
+          <h2>Oggetti, riti, investiture</h2>
+        </div>
+
+        <div class="lead-box">
+          <p>REGALIA è un progetto espositivo dedicato agli oggetti che, nel corso della storia italiana, hanno reso il potere visibile, riconoscibile e trasmissibile. La mostra riunisce testimonianze provenienti da Milano e dal territorio lombardo, mettendo in relazione insegne regali, strumenti di autenticazione e manufatti associati all’autorità civile ed ecclesiastica.</p>
+          <p>Il percorso si concentra sul momento in cui il potere non si limita a essere esercitato, ma viene formalmente riconosciuto: nei gesti dell’incoronazione, nei segni dell’investitura, negli oggetti che rendono valido un comando e ne conservano la continuità simbolica.</p>
+        </div>
+
+        <div class="home-cards">
+          <article class="mini-card">
+            <h3>Un tema</h3>
+            <p>La legittimazione del potere tra impero, regalità e autorità ecclesiastica.</p>
+          </article>
+          <article class="mini-card">
+            <h3>Un territorio</h3>
+            <p>Milano, Monza e Pavia: luoghi in cui l’autorità ha assunto forme e segni differenti.</p>
+          </article>
+          <article class="mini-card">
+            <h3>Un filo conduttore</h3>
+            <p>Oggetti che non si limitano a rappresentare il potere, ma ne sanciscono il riconoscimento pubblico.</p>
+          </article>
+        </div>
+
+        <div class="meta-strip">
+          <div><strong>A cura di</strong><br>Studio curatoriale Altomonte</div>
+          <div><strong>Progetto espositivo</strong><br>Regalia 2025</div>
+          <div><strong>Con il supporto di</strong><br>Istituto Lombardo per la Cultura Visiva · Fondazione Archivum</div>
+        </div>
+
+        <div class="partner-row">
+          <div class="partner-logo">ARCHIVUM</div>
+          <div class="partner-logo">ILCV</div>
+          <div class="partner-logo">REGALIA 2025</div>
+        </div>
+      </section>
+
+      <section id="objects" class="section-panel">
+        <div class="section-head">
+          <span class="section-kicker">Oggetti in mostra</span>
+          <h2>Prestiti e opere esposte</h2>
+        </div>
+
+        <article class="object-card">
+          <div class="object-text">
+            <h3>Corona di Teodolinda</h3>
+            <p>Tra le opere più rappresentative del Tesoro del Duomo di Monza, la Corona di Teodolinda costituisce una testimonianza significativa dell’oreficeria altomedievale e del rapporto tra regalità e devozione.</p>
+            <p>Tradizionalmente associata alla figura della regina Teodolinda, l’oggetto si colloca in un contesto in cui il potere non è ancora separato dalla dimensione religiosa, ma si esprime attraverso simboli condivisi tra corte e culto. La corona non svolge soltanto una funzione ornamentale: è un segno visibile di appartenenza, autorità e continuità dinastica.</p>
+            <p>Nel percorso espositivo, la sua presenza introduce il tema della trasformazione del potere tra tarda antichità e alto medioevo, mostrando come gli oggetti legati alla regalità assumano progressivamente un valore simbolico sempre più strutturato e riconoscibile.</p>
+            <p class="source"><strong>Prestito:</strong> Museo e Tesoro del Duomo di Monza</p>
+          </div>
+          <div class="object-images">
+            <img src="corona_teodolinda_1.jpg" alt="Corona di Teodolinda">
+            <img src="corona_teodolinda_2.jpg" alt="Corona di Teodolinda dettaglio">
+          </div>
+        </article>
+
+        <article class="object-card">
+          <div class="object-text">
+            <h3>Croce di Agilulfo</h3>
+            <p>Attribuita alla tradizione longobarda e associata alla memoria del re Agilulfo, questa croce rappresenta uno degli esempi più evidenti della sovrapposizione tra dimensione religiosa e rappresentazione del potere.</p>
+            <p>L’oggetto, pur appartenendo alla sfera liturgica, assume un ruolo che va oltre il culto: diventa segno pubblico di autorità, capace di legittimare e rafforzare il ruolo del sovrano attraverso un linguaggio condiviso tra fede e governo.</p>
+            <p>La croce testimonia un momento storico in cui il potere non si afferma soltanto attraverso la forza o il comando diretto, ma attraverso simboli riconosciuti e accettati. In questo senso, si configura come uno degli strumenti attraverso cui l’autorità viene resa visibile e, soprattutto, riconosciuta.</p>
+            <p class="source"><strong>Prestito:</strong> Museo e Tesoro del Duomo di Monza</p>
+          </div>
+          <div class="object-images">
+            <img src="croce_agilulfo_1.jpg" alt="Croce di Agilulfo">
+            <img src="croce_agilulfo_2.jpg" alt="Croce di Agilulfo dettaglio">
+          </div>
+        </article>
+
+        <article class="object-card">
+          <div class="object-text">
+            <h3>Dittico di Stilicone</h3>
+            <p>Il cosiddetto Dittico di Stilicone, legato alla tradizione tardoantica, rappresenta una delle testimonianze più significative della persistenza del linguaggio imperiale nella rappresentazione del potere.</p>
+            <p>Attraverso la raffigurazione di figure legate alla corte e al comando, il dittico conserva e trasmette una grammatica visiva che sopravvive anche dopo la trasformazione dell’Impero. L’oggetto non è soltanto commemorativo: è parte di un sistema simbolico che definisce gerarchie, ruoli e autorità.</p>
+            <p>Nel contesto della mostra, il dittico evidenzia come il potere imperiale continui a esistere anche nella sua dimensione rappresentativa, influenzando le forme successive della regalità e contribuendo alla costruzione di un immaginario condiviso dell’autorità.</p>
+            <p class="source"><strong>Prestito:</strong> Museo e Tesoro del Duomo di Monza</p>
+          </div>
+          <div class="object-images">
+            <img src="dittico_stilicone_1.jpg" alt="Dittico di Stilicone">
+            <img src="dittico_stilicone_2.jpg" alt="Dittico di Stilicone dettaglio">
+          </div>
+        </article>
+
+        <article class="object-card">
+          <div class="object-text">
+            <h3>Sigilli medievali</h3>
+            <p>La sezione dedicata ai sigilli mette in luce uno degli strumenti più concreti e determinanti nella costruzione del potere: l’autenticazione.</p>
+            <p>I sigilli non si limitano a chiudere o contrassegnare un documento, ma ne garantiscono la validità. Attraverso la loro impronta, una decisione diventa atto riconosciuto, verificabile e quindi efficace. In questo passaggio, il potere si trasforma da volontà ad autorità formalizzata.</p>
+            <p>L’uso del sigillo introduce un elemento fondamentale: il riconoscimento pubblico. Non basta esercitare il comando, è necessario che esso venga accettato e identificato come legittimo. Proprio in questa funzione, il sigillo diventa uno dei dispositivi centrali nella trasmissione del potere.</p>
+            <p class="source"><strong>Prestito:</strong> Archivio di Stato di Milano</p>
+          </div>
+          <div class="object-images">
+            <img src="sigilli_medievali_1.jpg" alt="Sigilli medievali">
+            <img src="sigilli_medievali_2.jpg" alt="Sigilli medievali dettaglio">
+          </div>
+        </article>
+
+        <article class="object-card featured">
+          <div class="object-text">
+            <h3>Corona Ferrea</h3>
+            <p>Tra le più antiche insegne regali d’Europa, la Corona Ferrea occupa un ruolo centrale nella storia della legittimazione del potere in Italia. Utilizzata nelle cerimonie di incoronazione dei re d’Italia, essa non si limita a rappresentare l’autorità, ma ne sancisce il riconoscimento formale e pubblico.</p>
+            <p>Nel gesto dell’imposizione, il potere diventa visibile, condiviso e riconosciuto: è in questo momento che l’autorità si trasforma in legittimità. La corona agisce quindi come uno strumento attivo, capace di rendere valido ciò che, senza di essa, resterebbe incompleto.</p>
+            <p>Secondo la tradizione, al suo interno è presente un sottile anello metallico associato a uno dei chiodi della Croce, elemento che ha contribuito nei secoli ad accrescerne il valore simbolico e sacrale. Questa duplice natura — regale e religiosa — ne rafforza il ruolo come punto di incontro tra diverse forme di potere.</p>
+            <p>La corona fu utilizzata anche da Napoleone Bonaparte nel 1805 per proclamarsi re d’Italia, confermando la persistenza del suo valore come strumento di riconoscimento attraverso epoche e sistemi politici differenti.</p>
+            <p class="source"><strong>Prestito:</strong> Museo e Tesoro del Duomo di Monza</p>
+          </div>
+          <div class="object-images">
+            <img src="corona_ferrea_1.jpg" alt="Corona Ferrea">
+            <img src="corona_ferrea_2.jpg" alt="Corona Ferrea dettaglio">
+          </div>
+        </article>
+      </section>
+
+      <section id="path" class="section-panel">
+        <div class="section-head">
+          <span class="section-kicker">Percorso espositivo</span>
+          <h2>Dalla rappresentazione al riconoscimento</h2>
+        </div>
+        <div class="lead-box">
+          <p>Il percorso si sviluppa come una progressiva trasformazione dei segni del potere: dagli oggetti che lo rappresentano alle forme che ne garantiscono la validità pubblica. In mostra, corone, croci, sigilli e manufatti cerimoniali sono presentati non come reliquie isolate, ma come strumenti attivi nella costruzione dell’autorità.</p>
+          <p>Il visitatore attraversa così un itinerario in cui la regalità, la memoria imperiale e il ruolo delle istituzioni religiose si intrecciano, mostrando come la continuità del comando passi spesso attraverso oggetti capaci di rendere visibile ciò che, da solo, il potere non può garantire.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-item"><span>1</span><div><strong>Età tardoantica</strong><p>Persistenza delle forme imperiali e della loro grammatica visiva.</p></div></div>
+          <div class="tl-item"><span>2</span><div><strong>Regalità longobarda</strong><p>Oggetti di corte, devozione e investitura in area lombarda.</p></div></div>
+          <div class="tl-item"><span>3</span><div><strong>Autenticazione del comando</strong><p>Sigilli, atti e strumenti che trasformano la decisione in autorità riconosciuta.</p></div></div>
+        </div>
+
+        <div class="meta-strip">
+          <div><strong>Date</strong><br>18 settembre — 21 dicembre 2025</div>
+          <div><strong>Sede</strong><br>Spazio Ventura, Milano</div>
+          <div><strong>Orari</strong><br>gio–dom, 10:00–19:00</div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="sidebar">
+      <div class="contact-card">
+        <div class="section-kicker">Servizi</div>
+        <h3>Info e contatti</h3>
+        <p>Il progetto espositivo è concluso. L’archivio del sito resta consultabile come documentazione della mostra.</p>
+        <p><a href="contatti.html">Per info e contatti</a></p>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="foot-left">REGALIA · archivio del progetto espositivo 2025</div>
+      <div class="foot-right">Questo sito è stato realizzato a fini esclusivamente ludici e narrativi: ogni riferimento espositivo è parte di una cornice di finzione.</div>
+    </div>
+  </footer>
+</body>
+</html>
