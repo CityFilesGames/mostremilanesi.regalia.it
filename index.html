@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGALIA — Milano 2025</title>
+<link rel="stylesheet" href="style.css">
+<script>
+function showSection(id){
+ document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+ document.getElementById(id).classList.add('active');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</head>
+<body>
+
+<header class="hero">
+<div class="hero-content">
+<h1>REGALIA</h1>
+<p class="subtitle">I segni della sovranità tra tardo antico e medioevo</p>
+<p class="meta">Milano — Spazio Ventura · 18 settembre — 21 dicembre 2025</p>
+</div>
+</header>
+
+<nav class="nav">
+<button onclick="showSection('home')">Mostra</button>
+<button onclick="showSection('objects')">Oggetti</button>
+<button onclick="showSection('path')">Percorso</button>
+</nav>
+
+<div class="container">
+
+<main>
+
+<section id="home" class="section active">
+<h2>La mostra</h2>
+<p>
+REGALIA esplora il modo in cui il potere, nel corso della storia, ha assunto una forma visibile attraverso oggetti concreti.
+Non semplici simboli, ma strumenti di riconoscimento: elementi capaci di trasformare un'autorità in qualcosa di condiviso, accettato, riconosciuto.
+</p>
+
+<p>
+Dall’eredità dell’Impero romano alle forme della regalità medievale, il percorso mette in relazione oggetti, rituali e memoria,
+tracciando una linea continua tra ciò che è stato e ciò che è stato riconosciuto come legittimo.
+</p>
+
+<div class="meta-box">
+<p><strong>A cura di:</strong> Studio Altomonte</p>
+<p><strong>Partner:</strong> Archivum · ILCV</p>
+<p><strong>Luogo:</strong> Spazio Ventura, Milano</p>
+</div>
+</section>
+
+<section id="objects" class="section">
+<h2>Oggetti esposti</h2>
+
+<div class="card">
+<h3>Corona di Teodolinda</h3>
+<p>Testimonianza dell’oreficeria altomedievale e del rapporto tra regalità e devozione. Associata alla figura della regina Teodolinda, rappresenta un momento in cui il potere si esprime attraverso oggetti che uniscono simbolo e autorità.</p>
+<p class="source">Prestito: Duomo di Monza</p>
+</div>
+
+<div class="card">
+<h3>Croce di Agilulfo</h3>
+<p>Oggetto liturgico che assume valore politico. Non solo strumento di culto, ma elemento capace di rendere visibile l’autorità e legittimarla attraverso un linguaggio condiviso.</p>
+<p class="source">Prestito: Duomo di Monza</p>
+</div>
+
+<div class="card">
+<h3>Dittico di Stilicone</h3>
+<p>Testimonianza della persistenza del linguaggio imperiale. Un oggetto che conserva e trasmette le forme della rappresentazione del potere anche oltre la trasformazione dell’Impero.</p>
+<p class="source">Prestito: Duomo di Monza</p>
+</div>
+
+<div class="card">
+<h3>Sigilli medievali</h3>
+<p>Strumenti di autenticazione che trasformano un atto in autorità riconosciuta. Il sigillo non rappresenta il potere: lo rende valido.</p>
+<p class="source">Prestito: Archivio di Stato di Milano</p>
+</div>
+
+<div class="card highlight">
+<h3>Corona Ferrea</h3>
+<p>Tra le più antiche insegne regali d’Europa, utilizzata per l’incoronazione dei re d’Italia. Non rappresenta soltanto il potere, ma ne sancisce il riconoscimento.</p>
+<p>Secondo la tradizione contiene un elemento legato a un chiodo della Croce, rafforzandone il valore simbolico.</p>
+<p>Utilizzata anche da Napoleone nel 1805.</p>
+<p class="source">Prestito: Duomo di Monza</p>
+</div>
+
+</section>
+
+<section id="path" class="section">
+<h2>Percorso espositivo</h2>
+<p>
+Il percorso analizza come il potere diventi riconoscibile attraverso oggetti concreti.
+Non ciò che viene dichiarato, ma ciò che viene riconosciuto.
+</p>
+</section>
+
+</main>
+
+<aside class="sidebar">
+<div class="contact-box">
+<h3>Info e contatti</h3>
+<p><a href="contatti.html">Per info e contatti</a></p>
+</div>
+</aside>
+
+</div>
+
+<footer>
+<p>Progetto realizzato a fini ludici e narrativi.</p>
+</footer>
+
+</body>
+</html>
