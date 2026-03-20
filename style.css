@@ -1,0 +1,10 @@
+
+body{margin:0;font-family:Georgia;background:#111;color:#eee;text-align:center}
+.hero{height:300px;background:linear-gradient(#000,#333);display:flex;align-items:center;justify-content:center}
+nav{background:#222;padding:10px}
+nav button{margin:5px;padding:10px;color:#fff;background:#444;border:none}
+.container{max-width:1000px;margin:auto;padding:20px}
+.section{display:none}
+.section.active{display:block}
+.card{margin:20px}
+.card img{width:100%;border-radius:10px}
